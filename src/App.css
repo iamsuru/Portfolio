@@ -39,7 +39,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@900&display=swap");
 
-/* Header.js */
+/* NavigationBar.js */
 .nav_links {
   color: black !important;
   font-size: 18px !important;
@@ -73,6 +73,11 @@
   opacity: 0.1;
   width: 50%;
   background: #3e64ff;
+}
+
+li{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Introduction.js */
@@ -122,4 +127,9 @@ h3{
 
 a{
   color: black !important;
+}
+
+.custom-nav {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
 }
