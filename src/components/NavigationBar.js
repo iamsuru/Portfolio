@@ -1,10 +1,8 @@
 import React from 'react';
 import { NavbarBrand,NavLink, Button } from 'reactstrap';
-
-
 const NavigationBar = () => {
   return (
-    <nav className="navbar navbar-expand-md">
+    <nav className="navbar fixed-top bg-white navbar-expand-md">
       <div className='container'>
         <NavbarBrand href="/"><h3 className='brand-name'><span className='brand-name-start'>S</span>uryansh</h3></NavbarBrand>
         <Button className='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>

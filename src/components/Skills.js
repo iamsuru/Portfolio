@@ -24,12 +24,12 @@ const Card = (props) => {
 const ProgressBar = (props) => {
     return (
         <div className='row'>
-            <div className='col-lg-6'>
+            <div className='col-sm-6'>
                 <span className='h6 mr-4 mt-4 mb-4'>{props.language1}</span>
                 <span className='h6 float-end'>{`${props.val1}%`}</span>
                 <Progress color='#3e64ff' style={{ height: '10px' }} className="my-2 mt-3 mb-3" value={`${props.val1}`}></Progress>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-sm-6'>
                 <span className='h6 mr-4 mt-4 mb-4'>{props.language2}</span>
                 <span className='h6 float-end'>{`${props.val2}%`}</span>
                 <Progress color='#3e64ff' style={{ height: '10px' }} className="my-2 mt-3 mb-3" value={`${props.val2}`}></Progress>

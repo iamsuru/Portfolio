@@ -85,7 +85,7 @@ li {
 .flex-container {
   display: flex;
   flex-direction: row;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -181,6 +181,11 @@ a {
   font-size: 17px;
 }
 
+.r-nav-li:hover{
+  color: #3e64ff !important;
+  font-size: 19px;
+}
+
 .r-hd {
   font-weight: 800;
   font-size: 30px;
@@ -242,4 +247,90 @@ a {
 
 .pro-container:hover{
   background: #3e64ff; 
+}
+
+.cd{
+  background-color: rgb(61, 100, 255)
+}
+
+
+/* Advertisement.js */
+
+.ad-container{
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background: linear-gradient(to right, rgba(61, 100, 255, 0.5),rgba(61, 100, 255, 0.5)), url('./images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.ad-h1{
+  font-weight: 800;
+  font-size: 45px;
+  color: white;
+}
+
+.ad-p{
+  color: white;
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+.adv-anch{
+  color: white!important;
+  background-color: #3e64ff;
+  padding: 15px 35px !important;
+  border-radius: 50px;
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.adv-anch:hover{
+  color: black !important;
+}
+
+
+/* Contact.js */
+
+.c-span{
+  background-color: #3e64ff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.c-icon{
+  color: white;
+  font-size: 30px;
+}
+
+
+.c-anchor{
+  text-decoration: none;
+  color: #3e64ff !important;
+}
+
+.c-form-group{
+  margin: 50px;
+}
+
+.con-btn{
+  color: white!important;
+  background-color: #3e64ff !important;
+  padding: 15px 35px !important;
+  border-radius: 50px !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  float: left;
 }

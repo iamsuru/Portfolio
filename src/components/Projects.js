@@ -17,7 +17,7 @@ const Card = (props) => {
 
 function Projects() {
   return (
-    <div className='container-fluid text-center'>
+    <div className='container-fluid text-center mb-5'>
       <h1 className='mb-5 mt-5 profile-h2'>My Projects</h1>
       <p className='mb-5 profile-p'>A project is a temporary undertaking aimed at achieving a distinct objective within defined parameters and constraints.</p>
       <div className='row'>
