@@ -13,7 +13,7 @@ const NavigationBar = () => {
         <div className='collapse navbar-collapse justify-content-end' id='navbarSupportedContent'>
           <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to='#home' className='nav_links'>Home</Link>
+              <Link to='#home' className='nav_links'>Homeee</Link>
             </li>
             <li className="nav-item">
               <Link to='#about' className='nav_links'>About</Link>
