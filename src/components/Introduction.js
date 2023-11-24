@@ -6,7 +6,7 @@ const Introduction = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Java Developer.", "MERN Developer.", "Backend Developer."],
+      strings: ["Java.", "MERN Developer.", "Backend Developer."],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,
