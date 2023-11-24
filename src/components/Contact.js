@@ -50,11 +50,11 @@ function Contact() {
 
                 <div className='mt-5'>
                     <div className='row d-flex justify-content-center'>
-                        <div className='col-md-4 d-flex justify-content-center'  style={{ backgroundColor: '#f8f9fa' }}>
+                        <div className='col-md-5 d-flex justify-content-center'  style={{ backgroundColor: '#f8f9fa' }}>
                             <Image />
                         </div>
 
-                        <div className='col-md-4'  style={{ backgroundColor: '#f8f9fa' }}>
+                        <div className='col-md-5'  style={{ backgroundColor: '#f8f9fa' }}>
                             <Form>
                                 <FormGroup className='c-form-group'>
                                 <Input

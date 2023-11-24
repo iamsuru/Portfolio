@@ -11,19 +11,19 @@ const NavigationBar = () => {
         <div className='collapse navbar-collapse justify-content-end' id='navbarSupportedContent'>
           <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav_links" aria-current="page" href="/">Home</NavLink>
+              <NavLink className="nav_links" href="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className='nav_links' href="/about" >About</NavLink>
+              <NavLink className='nav_links' href="" >About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className='nav_links' href="/services" >Resume</NavLink>
+              <NavLink className='nav_links' href="" >Resume</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className='nav_links' href="/projects" >Projects</NavLink>
+              <NavLink className='nav_links' href="" >Projects</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className='nav_links' href="/contact" >Contact Me</NavLink>
+              <NavLink className='nav_links' href="" >Contact</NavLink>
             </li>
           </ul>
         </div>

@@ -43,6 +43,12 @@
 .nav_links {
   color: black !important;
   font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+.nav_links:hover{
+  color: #3e64ff !important;
+  text-decoration: underline;
 }
 
 .brand-name {
