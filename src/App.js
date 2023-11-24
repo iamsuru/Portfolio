@@ -8,37 +8,40 @@ import SocialLinks from './components/Social'
 import Projects from './components/Projects';
 import Advertisement from './components/Advertisement';
 import Contact from './components/Contact';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <NavigationBar />
+      <BrowserRouter>
+        <NavigationBar />
 
-      <section>
-        <Overlay />
-        <Introduction />
-      </section>
+        <section id='home'>
+          <Overlay />
+          <Introduction />
+        </section>
 
-      <section>
-        <Profile />
-        <SocialLinks />
-      </section>
+        <section id='about'>
+          <Profile />
+          <SocialLinks />
+        </section>
 
-      <section>
-        <Resume />
-      </section>
+        <section id='resume'>
+          <Resume />
+        </section>
 
-      <section>
-        <Projects />
-      </section>
+        <section id='projects'>
+          <Projects />
+        </section>
 
-      <section>
-        <Advertisement />
-      </section>
+        <section>
+          <Advertisement />
+        </section>
 
-      <section>
-        <Contact />
-      </section>
+        <section id='contact'>
+          <Contact />
+        </section>
+      </BrowserRouter>
     </>
   );
 }
