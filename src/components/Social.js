@@ -7,16 +7,20 @@ import { NavLink } from 'reactstrap';
 
 function Social() {
   return (
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-12 col-md-8 col-lg-6 d-flex justify-content-center">
-          <div className='icon-container d-flex flex-wrap justify-content-center align-items-center'>
-            <NavLink href='https://www.linkedin.com/in/iamsuru/' target='_blank'><FontAwesomeIcon icon={faLinkedin} className="fa-brands" /></NavLink>
-            <NavLink href='https://github.com/iamsuru/' target='_blank'><FontAwesomeIcon icon={faGithub} className="fa-brands" /></NavLink>
-            <NavLink href='https://www.instagram.com/i_amsuru07/' target='_blank'><FontAwesomeIcon icon={faInstagram} className="fa-brands" /></NavLink>
-            <NavLink href='https://leetcode.com/iamsuru/' target='_blank'><Icon icon={leetcodeIcon} className="iconify-icon" /></NavLink>
-          </div>
-        </div>
+    <div className='container'>
+      <div className='row text-center'>
+      <div className='col-sm-3'>
+      <NavLink href='https://www.linkedin.com/in/iamsuru/' target='_blank'><FontAwesomeIcon icon={faLinkedin} className="fa-brands" /></NavLink>
+      </div>
+      <div className='col-sm-3'>
+      <NavLink href='https://github.com/iamsuru/' target='_blank'><FontAwesomeIcon icon={faGithub} className="fa-brands" /></NavLink>
+      </div>
+      <div className='col-sm-3'>
+      <NavLink href='https://www.instagram.com/i_amsuru07/' target='_blank'><FontAwesomeIcon icon={faInstagram} className="fa-brands" /></NavLink>
+      </div>
+      <div className='col-sm-3'>
+      <NavLink href='https://leetcode.com/iamsuru/' target='_blank'><Icon icon={leetcodeIcon} className="iconify-icon" /></NavLink>
+      </div>
       </div>
     </div>
   )

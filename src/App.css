@@ -75,12 +75,24 @@
   background: #3e64ff;
 }
 
-li{
+li {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 /* Introduction.js */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-content {
+  text-align: center;
+}
 
 h1 {
   font-size: 50px !important;
@@ -89,7 +101,7 @@ h1 {
   color: black;
 }
 
-h3{
+h3 {
   font-size: 2rem !important;
   font-weight: 800 !important;
   line-height: 1.5;
@@ -104,7 +116,7 @@ h3{
   letter-spacing: 4px;
 }
 
-.typer{
+.typer {
   color: #3e64ff;
   text-decoration: underline;
 }
@@ -116,20 +128,104 @@ h3{
   align-items: center;
 }
 
-.fa-brands, .iconify-icon {
+.fa-brands,
+.iconify-icon {
   margin-top: 40px;
-  margin-left : 50px;
+  margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 40px;
   font-size: 50px;
 }
 
-
-a{
+a {
   color: black !important;
 }
 
 .custom-nav {
   display: flex;
   flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* profile.js */
+
+.profile-h2 {
+  font-weight: bold;
+  font-size: 50px !important;
+}
+
+.profile-p {
+  color: #999999;
+}
+
+.profile-ul {
+  list-style: none;
+}
+
+.profile-tq {
+  font-weight: 600;
+  width: 130px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.profile-ta {
+  color: #999999;
+  width: 200px;
+}
+
+/* Education.js */
+
+.r-li {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.r-hd {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #3e64ff;
+}
+
+.qualification-date {
+  font-weight: 800;
+  font-size: 16px;
+  color: #3e64ff;
+}
+
+.qualification-certificate {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.qualification-location {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.q-icon{
+  background-color: #3e64ff;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Skills.js */
+.skill-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-container {
+  width: 150px;
+  height: 150px;
+}
+
+.s-hd{
+  font-size: 20px;
+  font-weight: bolder;
 }
