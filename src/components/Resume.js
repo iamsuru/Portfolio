@@ -3,6 +3,7 @@ import Qualification from './Qualification'
 import Certificate from '../data/Certificate'
 import { NavLink } from 'reactstrap'
 import Skills from './Skills'
+import Achievements from './Achievements'
 function Resume() {
   return (
     <div className='container'>
@@ -30,6 +31,9 @@ function Resume() {
           <h2 className='r-hd mt-4 mb-4'>Skills</h2>
           <Skills/>
           <h2 className='r-hd mt-4 mb-4'>Achievements</h2>
+          <Achievements year='2022' title='Smart India Hackathon' medium = 'Government Of India'/>
+          <Achievements year='2022' title='5-Star SQL' medium = 'HackerRank'/>
+          <Achievements year='2022' title='3-Star Java' medium = 'HackerRank'/>
         </div>
       </div>
     </div>
