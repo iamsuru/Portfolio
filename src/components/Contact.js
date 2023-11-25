@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Image } from './Profile'
-import { Button, Form, FormGroup, Input } from 'reactstrap'
-
+import { Button } from 'reactstrap'
+import emailjs from '@emailjs/browser'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactCards = (props) => {
     return (
@@ -33,13 +35,29 @@ const ContactCards = (props) => {
     )
 }
 
-
-const connectForm = () => {
-
-}
-
-
 function Contact() {
+
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs.sendForm('service_xx5qvoj', 'template_3zyz9sh', form.current, '9ODwGHyJHzPaP2BkE')
+            .then((result) => {
+                if (result.status === 200) {
+                    form.current.reset();
+                    toast.success('Email sent successfully!', {
+                        position: toast.POSITION.TOP_CENTER
+                    });
+                }
+
+            }, (error) => {
+                console.log('Email sending failed:', error);
+                toast.error('Failed to send email!', {
+                    position: toast.POSITION.TOP_CENTER
+                });
+            });
+    }
     return (
         <div className='container mb-5 text-center'>
             <h1 className='mb-5 mt-5 profile-h2'>Contact Me</h1>
@@ -50,52 +68,29 @@ function Contact() {
 
                 <div className='mt-5'>
                     <div className='row d-flex justify-content-center'>
-                        <div className='col-md-5 d-flex justify-content-center'  style={{ backgroundColor: '#f8f9fa' }}>
+                        <div className='col-md-5 d-flex justify-content-center' style={{ backgroundColor: '#f8f9fa' }}>
                             <Image />
                         </div>
 
-                        <div className='col-md-5'  style={{ backgroundColor: '#f8f9fa' }}>
-                            <Form>
-                                <FormGroup className='c-form-group'>
-                                <Input
-                                    id="name"
-                                    name="contacter_name"
-                                    placeholder="Your Name"
-                                    type="text"
-                                />
-                                </FormGroup>
-
-                                <FormGroup className='c-form-group'>
-                                <Input
-                                    id="email"
-                                    name="contacter_email"
-                                    placeholder="Your Email"
-                                    type="email"
-                                />
-                                </FormGroup>
-                                
-                                <FormGroup className='c-form-group'>
-                                <Input
-                                    id="subject"
-                                    name="contacter_subject"
-                                    placeholder="Subject"
-                                    type="text"
-                                />
-                                </FormGroup>
-
-                                <FormGroup className='c-form-group'>
-                                <Input
-                                    id="message"
-                                    name="contacter_message"
-                                    placeholder="Message"
-                                    type="textbox"
-                                />
-                                </FormGroup>
-
-                                <FormGroup className='c-form-group'>
-                                <Button type="submit" className='con-btn'>Send Message</Button>
-                                </FormGroup>
-                            </Form>
+                        <div className='col-md-5' style={{ backgroundColor: '#f8f9fa' }}>
+                            <form ref={form} onSubmit={sendEmail}>
+                                <div className="mb-3 c-form-group">
+                                    <input type="text" name='from_name' className="form-control" placeholder="Your Name" required/>
+                                </div>
+                                <div className="mb-3 c-form-group">
+                                    <input type="email" name='user_email' className="form-control" placeholder="Your Email" required/>
+                                </div>
+                                <div className="mb-3 c-form-group">
+                                    <input type="text" name='subject' className="form-control" placeholder="Subject"required />
+                                </div>
+                                <div className="mb-3 c-form-group">
+                                    <textarea className="form-control" name='message' placeholder='Message' rows={5} required></textarea>
+                                </div>
+                                <div className="mb-3 c-form-group">
+                                    <Button type="submit" className='con-btn'>Send Message</Button>
+                                </div>
+                            </form>
+                            <ToastContainer />
                         </div>
                     </div>
                 </div>

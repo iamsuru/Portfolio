@@ -9,7 +9,7 @@
 }
 
 .nav-bg{
-  background-color: rgba(255, 255, 255, 0.374);
+  background-color: rgba(41, 40, 40, 0.374);
 }
 
 .nav_links:hover{
@@ -224,6 +224,12 @@ a {
 
 /* Projects.js */
 
+.pr-anchor{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .pro-container{
   width: 450px;
   height: 350px;
@@ -320,7 +326,9 @@ a {
   font-size: 13px !important;
   float: left;
 }
-
+.con-btn:hover{
+  color: black !important;
+}
 .div-mar{
   margin-top: 100px;
 }

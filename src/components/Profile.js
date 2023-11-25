@@ -3,7 +3,7 @@ import image from '../images/profile2.png'
 
 const Image = () => {
   return(
-    <img src={image} className='float-end img-fluid profile-image' alt='Profile Image'/>
+    <img src={image} className='float-end img-fluid profile-image' alt='Profileimage'/>
   )
 }
 
@@ -14,7 +14,7 @@ function Profile() {
 
         {/* image div */}
         <div className='col-md-6'>
-          <img src={image} className='float-end img-fluid profile-image' alt='Profile Image'/>
+          <Image/>
         </div>
 
         {/* about div */}
@@ -31,7 +31,7 @@ function Profile() {
           <li><span className='profile-tq'>Email:</span><span className='profile-ta'>iamsuru07@gmail.com</span></li>
           <li><span className='profile-tq'>Phone:</span><span className='profile-ta'>+919589661210</span></li>
         </ul>
-        <a className='adv-anch' href='https://drive.google.com/file/d/1iH0v3_cAo__EyrMg6tlIQPKls9uCXdsO/view?usp=sharing' target='_blank'>DOWNLOAD CV</a>
+        <a className='adv-anch' href='https://drive.google.com/file/d/1iH0v3_cAo__EyrMg6tlIQPKls9uCXdsO/view?usp=sharing' rel="noopener noreferrer" target='_blank'>DOWNLOAD CV</a>
         </div>
       </div>
     </div>

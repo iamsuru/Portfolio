@@ -1,7 +1,6 @@
 import React from 'react'
 import Qualification from './Qualification'
 import Certificate from '../data/Certificate'
-import { NavLink } from 'reactstrap'
 import Skills from './Skills'
 import Achievements from './Achievements'
 import { HashLink } from 'react-router-hash-link'
