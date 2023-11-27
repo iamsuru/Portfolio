@@ -1,7 +1,7 @@
 const Certificate = [
     {
         date : '2019-2023',
-        certificate :'Bachelor of Engineering in Computer Science',
+        certificate :'Bachelor of Technology in Computer Science',
         location : 'Shri Ram Institute of Technology,Jabalpur'
     },
     {

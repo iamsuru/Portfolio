@@ -26,7 +26,7 @@ function Profile() {
         <ul className='about-info mt-4 mb-5 px-md-0 px-2 list-unstyled profile-ul'>
           <li><span className='profile-tq'>Name:</span><span className='profile-ta'>Suryansh Shrivastava</span></li>
           <li><span className='profile-tq'>Date of birth:</span><span className='profile-ta'>November 7,2000</span></li>
-          <li><span className='profile-tq'>Address:</span><span className='profile-ta'>Jabalpur,MP,India</span></li>
+          <li><span className='profile-tq'>Address:</span><span className='profile-ta'>Gotegaon,MP,India</span></li>
           <li><span className='profile-tq'>Zip Code</span><span className='profile-ta'>487118</span></li>
           <li><span className='profile-tq'>Email:</span><span className='profile-ta'>iamsuru07@gmail.com</span></li>
           <li><span className='profile-tq'>Phone:</span><span className='profile-ta'>+919589661210</span></li>
