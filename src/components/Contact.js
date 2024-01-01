@@ -47,14 +47,14 @@ function Contact() {
                 if (result.status === 200) {
                     form.current.reset();
                     toast.success('Email sent successfully!', {
-                        position: toast.POSITION.TOP_CENTER
+                        position: toast.POSITION.BOTTOM_RIGHT
                     });
                 }
 
             }, (error) => {
                 console.log('Email sending failed:', error);
                 toast.error('Failed to send email!', {
-                    position: toast.POSITION.TOP_CENTER
+                    position: toast.POSITION.BOTTOM_RIGHT
                 });
             });
     }
