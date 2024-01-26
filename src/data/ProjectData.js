@@ -26,17 +26,16 @@ const ProjectData = [
     {
         title: 'SmartScan 2.0',
         type: 'WEBAPP',
-        description: ['Enhanced Academic Major Project, an improved version of SmartScan.', `Users can upload documents using mobile's QR
-        Code Scanner without installing external Android apps.`, `Implemented with HTML, CSS, JavaScript, and Python for Front-
-        End, and Python and Google Firebase for Database API.`],
-        link: 'https://github.com/iamsuru/SmartScan_2.0'
-    },
-    {
-        title: 'SmartScan(MERN)',
-        type: 'WEBAPP',
         description: ['An improved version of SmartScan.',
             'Created using HTML, CSS, JavaScript, Node.JS & Express.JS & MongoDB as a Database.', 'Performed key role in the development process of UI portion of web application.'],
         link: 'https://smartscan.onrender.com/'
+    },
+    {
+        title: 'QuickQuiz',
+        type: 'WEBAPP',
+        description: ['A quiz application that has almost 10 categories for quiz.',
+            'Created using JSP, CSS, jQuery, Servlets & MongoDB as a Database.', 'Involved in high-level design, handling technical designs and complex application features.'],
+        link: 'https://github.com/iamsuru/QuickQuiz'
     }
 ]
 
