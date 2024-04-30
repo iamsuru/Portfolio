@@ -15,7 +15,7 @@ const ProjectData = [
         title: 'SmartScan',
         type: 'WEBAPP & ANDROID APP',
         description: ['Contributed as a team member to a Smart India Hackathon 2022 project.', 'Worked on Android using Android Studio, Java & Google Firebase.'],
-        link: 'https://github.com/iamsuru/SmartScanFinal'
+        link: 'https://smartscanmern.onrender.com/'
     },
     {
         title: 'Flight Booking System',
@@ -27,14 +27,21 @@ const ProjectData = [
         title: 'SmartScan 2.0',
         type: 'WEBAPP',
         description: ['An improved version of SmartScan.',
-            'Created using HTML, CSS, JavaScript, Node.JS & Express.JS & MongoDB as a Database.', 'Performed key role in the development process of UI portion of web application.'],
-        link: 'https://smartscan.onrender.com/'
+            'Developed using HTML, CSS, JavaScript, Node.JS & Express.JS & MongoDB as a Database.', 'Performed key role in the development process of UI portion of web application.'],
+        link: 'https://smartscanmern.onrender.com/'
     },
     {
         title: 'QuickQuiz',
         type: 'WEBAPP',
         description: ['A quiz application that has almost 10 categories for quiz.',
-            'Created using JSP, CSS, jQuery, Servlets & MongoDB as a Database.', 'Involved in high-level design, handling technical designs and complex application features.'],
+            'Developed using JSP, CSS, jQuery, Servlets & MongoDB as a Database.', 'Involved in high-level design, handling technical designs and complex application features.'],
+        link: 'https://github.com/iamsuru/QuickQuiz'
+    },
+    {
+        title: 'ChatterBox',
+        type: 'WEBAPP',
+        description: ['',
+            'Developed using React.js for the frontend and Node.js with Express for the backend, it seamlessly integrates MongoDB and Firebase for efficient data management.', `"ChatterBox" is a dynamic web application designed for real-time communication.`, 'Leveraging Socket.IO, users can engage in live chatting experiences.', 'This project showcases expertise in high-level design and the implementation of complex features, offering a comprehensive solution for interactive online communication.'],
         link: 'https://github.com/iamsuru/QuickQuiz'
     }
 ]

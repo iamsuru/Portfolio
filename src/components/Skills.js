@@ -46,17 +46,17 @@ function Skills() {
                     <Card language='Core Java' val='80' />
                 </div>
                 <div className='col-lg-4 mb-4'>
-                    <Card language='Node JS' val='60' />
+                    <Card language='Node JS' val='75' />
                 </div>
                 <div className='col-lg-4 mb-4'>
-                    <Card language='React JS' val='50' />
+                    <Card language='React JS' val='70' />
                 </div>
             </div>
 
-            <ProgressBar language1='HTML' val1='70' language2='CSS' val2='60' />
-            <ProgressBar language1='JavaScript' val1='40' language2='JSP' val2='40' />
+            <ProgressBar language1='HTML' val1='80' language2='CSS' val2='70' />
+            <ProgressBar language1='JavaScript' val1='80' language2='JSP' val2='50' />
             <ProgressBar language1='Servlets' val1='60' language2='MySQL' val2='70' />
-            <ProgressBar language1='Python' val1='50' language2='Express JS' val2='60'/>
+            <ProgressBar language1='Python' val1='50' language2='Express JS' val2='70' />
             <ProgressBar language1='MongoDB' val1='50' language2='Git' val2='70' />
             <ProgressBar language1='GitHub' val1='50' language2='REST API' val2='80' />
         </>
