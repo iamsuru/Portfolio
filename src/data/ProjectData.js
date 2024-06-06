@@ -18,10 +18,17 @@ const ProjectData = [
         link: 'https://smartscanmern.onrender.com/'
     },
     {
-        title: 'Flight Booking System',
-        type: 'WEBSITE',
-        description: ['A Personal Project created using Java Enterprise Edition', 'Worked on Flight Booking System using JSP, Servlets & MySQL'],
-        link: 'https://github.com/iamsuru/FlightBookingSystem'
+        title: 'FilmPholio',
+        type: 'WEBAPP',
+        description: ['FilmPholio is a web application that allows users to search for movies, view details, and create personalized movie lists.', 'These lists can be public or private, providing flexibility for users to share their favorite movies with others or keep them private.', 'The application uses the TMDB API to fetch movie details.', 'Developed using React.js, BootStrap, ChakraUI for frontend, Node.js & Express for REST API and Google FireBase for Database.'],
+        link: 'https:filmpholio.netlify.app'
+    },
+    {
+        title: 'ChatterBox',
+        type: 'WEBAPP',
+        description: ['',
+            'Developed using React.js for the frontend and Node.js with Express for the backend, it seamlessly integrates MongoDB and Firebase for efficient data management.', `"ChatterBox" is a dynamic web application designed for real-time communication.`, 'Leveraging Socket.IO, users can engage in live chatting experiences.', 'This project showcases expertise in high-level design and the implementation of complex features, offering a comprehensive solution for interactive online communication.'],
+        link: 'https://github.com/iamsuru/QuickQuiz'
     },
     {
         title: 'SmartScan 2.0',
@@ -38,12 +45,11 @@ const ProjectData = [
         link: 'https://github.com/iamsuru/QuickQuiz'
     },
     {
-        title: 'ChatterBox',
-        type: 'WEBAPP',
-        description: ['',
-            'Developed using React.js for the frontend and Node.js with Express for the backend, it seamlessly integrates MongoDB and Firebase for efficient data management.', `"ChatterBox" is a dynamic web application designed for real-time communication.`, 'Leveraging Socket.IO, users can engage in live chatting experiences.', 'This project showcases expertise in high-level design and the implementation of complex features, offering a comprehensive solution for interactive online communication.'],
-        link: 'https://github.com/iamsuru/QuickQuiz'
-    }
+        title: 'Flight Booking System',
+        type: 'WEBSITE',
+        description: ['A Personal Project created using Java Enterprise Edition', 'Worked on Flight Booking System using JSP, Servlets & MySQL'],
+        link: 'https://github.com/iamsuru/FlightBookingSystem'
+    },
 ]
 
 

@@ -28,6 +28,7 @@ function Projects() {
         <Card title={ProjectData[4].title} link={ProjectData[4].link} type={ProjectData[4].type} description={ProjectData[4].description} />
         <Card title={ProjectData[5].title} link={ProjectData[5].link} type={ProjectData[5].type} description={ProjectData[5].description} />
         <Card title={ProjectData[6].title} link={ProjectData[6].link} type={ProjectData[6].type} description={ProjectData[6].description} />
+        <Card title={ProjectData[7].title} link={ProjectData[7].link} type={ProjectData[7].type} description={ProjectData[7].description} />
       </div>
     </div>
   );
