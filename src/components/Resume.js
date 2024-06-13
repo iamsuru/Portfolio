@@ -25,9 +25,11 @@ function Resume() {
 
         <div className='col-md-9'>
           <h2 className='r-hd' id='education'>Education</h2>
-          <Qualification date={Certificate[0].date} certificate={Certificate[0].certificate} location={Certificate[0].location} />
-          <Qualification date={Certificate[1].date} certificate={Certificate[1].certificate} location={Certificate[1].location} />
-          <Qualification date={Certificate[2].date} certificate={Certificate[2].certificate} location={Certificate[2].location} />
+          {
+            Certificate.map((cert, idx) => (
+              <Qualification key={idx} date={cert.date} certificate={cert.certificate} location={cert.location} />
+            ))
+          }
           <div className='p-div' id='skills'>
             <h2 className='r-hd'>Skills</h2>
             <Skills />

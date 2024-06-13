@@ -21,14 +21,9 @@ function Projects() {
       <h1 className='mb-5 mt-5 profile-h2'>My Projects</h1>
       <p className='mb-5 profile-p'>A project is a temporary undertaking aimed at achieving a distinct objective within defined parameters and constraints.</p>
       <div className='row'>
-        <Card title={ProjectData[0].title} link={ProjectData[0].link} type={ProjectData[0].type} description={ProjectData[0].description} />
-        <Card title={ProjectData[1].title} link={ProjectData[1].link} type={ProjectData[1].type} description={ProjectData[1].description} />
-        <Card title={ProjectData[2].title} link={ProjectData[2].link} type={ProjectData[2].type} description={ProjectData[2].description} />
-        <Card title={ProjectData[3].title} link={ProjectData[3].link} type={ProjectData[3].type} description={ProjectData[3].description} />
-        <Card title={ProjectData[4].title} link={ProjectData[4].link} type={ProjectData[4].type} description={ProjectData[4].description} />
-        <Card title={ProjectData[5].title} link={ProjectData[5].link} type={ProjectData[5].type} description={ProjectData[5].description} />
-        <Card title={ProjectData[6].title} link={ProjectData[6].link} type={ProjectData[6].type} description={ProjectData[6].description} />
-        <Card title={ProjectData[7].title} link={ProjectData[7].link} type={ProjectData[7].type} description={ProjectData[7].description} />
+        {ProjectData.map((project, index) => (
+          <Card key={index} title={project.title} link={project.link} type={project.type} description={project.description} />
+        ))}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const ContactCards = (props) => {
+const ContactCards = () => {
     return (
         <>
             <div className='col-md-3 mb-4'>
@@ -75,13 +75,13 @@ function Contact() {
                         <div className='col-md-5' style={{ backgroundColor: '#f8f9fa' }}>
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="mb-3 c-form-group">
-                                    <input type="text" name='from_name' className="form-control" placeholder="Your Name" required/>
+                                    <input type="text" name='from_name' className="form-control" placeholder="Your Name" required />
                                 </div>
                                 <div className="mb-3 c-form-group">
-                                    <input type="email" name='user_email' className="form-control" placeholder="Your Email" required/>
+                                    <input type="email" name='user_email' className="form-control" placeholder="Your Email" required />
                                 </div>
                                 <div className="mb-3 c-form-group">
-                                    <input type="text" name='subject' className="form-control" placeholder="Subject"required />
+                                    <input type="text" name='subject' className="form-control" placeholder="Subject" required />
                                 </div>
                                 <div className="mb-3 c-form-group">
                                     <textarea className="form-control" name='message' placeholder='Message' rows={5} required></textarea>
