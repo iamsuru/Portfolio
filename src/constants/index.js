@@ -1,4 +1,6 @@
+import { SiExpress, SiFastify, SiFirebase, SiJavascript, SiMongodb, SiMysql, SiPostgresql, SiTypescript } from "react-icons/si";
 import { projectFive, projectFour, projectOne, projectThree, projectTwo } from "../assets/index";
+import { FaGit, FaJava, FaNodeJs, FaReact } from "react-icons/fa";
 
 export const navLinksdata = [
   {
@@ -65,3 +67,19 @@ export const projectData = [
     deploymentLink: 'https://filmpholio.netlify.app/'
   }
 ];
+
+
+export const skillsData = [
+  { icon: <SiJavascript />, label: "JavaScript" },
+  { icon: <SiTypescript />, label: "TypeScript" },
+  { icon: <FaJava />, label: "Java" },
+  { icon: <FaNodeJs />, label: "Node.js" },
+  { icon: <SiFastify />, label: "Fastify" },
+  { icon: <SiExpress />, label: "Express" },
+  { icon: <FaReact />, label: "React" },
+  { icon: <SiMysql />, label: "MySQL" },
+  { icon: <SiPostgresql />, label: "PostgreSQL" },
+  { icon: <SiMongodb />, label: "MongoDB" },
+  { icon: <SiFirebase />, label: "Firebase" },
+  { icon: <FaGit />, label: "Git" },
+]

@@ -1,7 +1,8 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaReact, FaGithub, FaNodeJs, FaGit, FaJava } from "react-icons/fa";
-import { SiExpress, SiFastify, SiFirebase, SiInstagram, SiJavascript, SiLeetcode, SiMongodb, SiMysql, SiPostgresql, SiTypescript } from "react-icons/si"
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { SiInstagram, SiLeetcode } from "react-icons/si"
+import { skillsData } from "../../constants";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -54,18 +55,16 @@ const LeftBanner = () => {
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">Best skill on</h2>
           <div className="flex gap-4 flex-wrap">
-            <span className="bannerIcon"><SiJavascript /></span>
-            <span className="bannerIcon"><SiTypescript /></span>
-            <span className="bannerIcon"><FaJava /></span>
-            <span className="bannerIcon"><FaNodeJs /></span>
-            <span className="bannerIcon"><SiFastify /></span>
-            <span className="bannerIcon"><SiExpress /></span>
-            <span className="bannerIcon"><FaReact /></span>
-            <span className="bannerIcon"><SiMysql /></span>
-            <span className="bannerIcon"><SiPostgresql /></span>
-            <span className="bannerIcon"><SiMongodb /></span>
-            <span className="bannerIcon"><SiFirebase /></span>
-            <span className="bannerIcon"><FaGit /></span>
+            {
+              skillsData.map(({ icon, label }, index) => (
+                <div key={index} className="relative group">
+                  <span className="bannerIcon">{icon}</span>
+                  <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 px-2 py-1 rounded bg-gray-800 text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10 whitespace-nowrap">
+                    {label}
+                  </div>
+                </div>
+              ))
+            }
           </div>
         </div>
       </div>
