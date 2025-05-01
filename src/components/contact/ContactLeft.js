@@ -20,10 +20,10 @@ const ContactLeft = () => {
           I'm always open to discussing new projects, collaboration opportunities, or anything tech-related. Feel free to reach out — let's build something impactful together!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 9589661210</span>
+          Phone: <span className="text-lightText"><a href='tel:+919589661210'>+91 9589661210</a></span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">iamsuru07@gmail.com</span>
+          Email: <span className="text-lightText"><a href='mailto:iamsuru07@gmail.com'>iamsuru07@gmail.com</a></span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
