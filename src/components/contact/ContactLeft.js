@@ -29,10 +29,10 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <a href="https://linkedin.com/in/iamsuru/" target="_blank">
+          <a href="https://linkedin.com/in/iamsuru/" target="_blank" without rel="noreferrer">
             <span className="bannerIcon"><FaLinkedinIn /></span>
           </a>
-          <a href="https://instagram.com/iamsuru_07/" target="_blank">
+          <a href="https://instagram.com/iamsuru_07/" target="_blank" without rel="noreferrer">
             <span className="bannerIcon"><SiInstagram /></span>
           </a>
         </div>

@@ -35,16 +35,16 @@ const LeftBanner = () => {
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
           <div className="flex gap-4">
-            <a href="https://linkedin.com/in/iamsuru/" target="_blank">
+            <a href="https://linkedin.com/in/iamsuru/" target="_blank" without rel="noreferrer">
               <span className="bannerIcon"><FaLinkedinIn /></span>
             </a>
-            <a href="https://github.com/iamsuru/" target="_blank">
+            <a href="https://github.com/iamsuru/" target="_blank" without rel="noreferrer">
               <span className="bannerIcon"><FaGithub /></span>
             </a>
-            <a href="https://leetcode.com/u/iamsuru/" target="_blank">
+            <a href="https://leetcode.com/u/iamsuru/" target="_blank" without rel="noreferrer">
               <span className="bannerIcon"><SiLeetcode /></span>
             </a>
-            <a href="https://instagram.com/iamsuru_07/" target="_blank">
+            <a href="https://instagram.com/iamsuru_07/" target="_blank" without rel="noreferrer">
               <span className="bannerIcon"><SiInstagram /></span>
             </a>
           </div>
