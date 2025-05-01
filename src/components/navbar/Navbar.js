@@ -12,8 +12,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        {/* ToDo: @iamsuru to add logo */}
-        {/* <img src={logo} alt="logo" /> */}
+        <img src={logo} alt="logo" className="h-40 w-auto object-contain" />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
