@@ -83,3 +83,5 @@ export const skillsData = [
   { icon: <SiFirebase />, label: "Firebase" },
   { icon: <FaGit />, label: "Git" },
 ]
+
+export const resumeLink = "https://drive.google.com/uc?export=download&id=1Lz51yiWf1b6hvbrDTc-W4rhOsDlp5zLq";

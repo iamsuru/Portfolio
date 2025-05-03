@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaDownload } from "react-icons/fa";
 import { logo } from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { navLinksdata, resumeLink } from '../../constants';
 import { SiInstagram } from 'react-icons/si';
 
 const Navbar = () => {
@@ -33,6 +33,14 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <a
+            href={resumeLink}
+            download
+            className="inline-flex text-base font-normal text-designColor tracking-wide cursor-pointer items-center gap-2 px-3 py-2 border border-designColor rounded-md 
+            hover:text-gray-400 hover:border-gray-400 hover:bg-designColor hover:bg-opacity-80 duration-300"
+          >
+            Resume <FaDownload />
+          </a>
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
@@ -68,6 +76,16 @@ const Navbar = () => {
                     </Link>
                   </li>
                 ))}
+                <span className="inline-block">
+                  <a
+                    href={resumeLink}
+                    download
+                    className="inline-flex items-center gap-2 px-4 py-2 text-base font-normal text-designColor tracking-wide cursor-pointer border border-designColor rounded-md 
+    hover:text-gray-400 hover:border-gray-400 hover:bg-designColor hover:bg-opacity-80 duration-300"
+                  >
+                    Resume <FaDownload />
+                  </a>
+                </span>
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
@@ -92,7 +110,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </div >
   );
 }
 
