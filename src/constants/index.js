@@ -31,7 +31,7 @@ export const projectData = [
     title: "PassMate",
     des: "A secure password manager built with React.js for frontend and Firebase for backend authentication and storage.",
     src: projectOne,
-    githubLink: 'https://github.com/iamsuru/Portfolio/',
+    githubLink: 'https://github.com/iamsuru/PassMate/',
     deploymentLink: 'https://web-passmate.netlify.app/'
   },
   {
