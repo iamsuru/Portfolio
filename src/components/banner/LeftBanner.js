@@ -6,7 +6,7 @@ import { skillsData } from "../../constants";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Software Developer.", "Backend Developer.", "JavaScript Developer.", "Full Stack Developer."],
+    words: ["Professional Coder.", "Software Developer.", "Backend Developer.", "JS/TS Developer.", "Full Stack Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 30,
@@ -28,7 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I build reliable backend systems that power real-world fintech products — not just with code, but with thoughtful design, testing, and integration. Every API, queue, or database I touch is shaped to serve users at scale, with clarity and purpose.
+          Software Development Engineer (SDE-II) building scalable backend systems, microservices, ETL pipelines, and AI automation platforms for fintech products. Experienced in Node.js, TypeScript, REST APIs, Redis, RabbitMQ, and fault-tolerant distributed architectures.
         </p>
       </div>
       <div className="flex flex-col gap-10 lgl:gap-14">

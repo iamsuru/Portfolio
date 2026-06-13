@@ -14,7 +14,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Suryansh Shrivastava</h3>
         <p className="text-lg font-normal text-gray-400">
-          Software Development Engineer - I
+          Software Development Engineer - II
         </p>
         <p className="text-base text-gray-400 tracking-wide">
           I'm always open to discussing new projects, collaboration opportunities, or anything tech-related. Feel free to reach out — let's build something impactful together!

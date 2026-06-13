@@ -6,14 +6,14 @@ import Achievement from './Achievement';
 import Experience from "./Experience"
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState(true);
+  const [educationData, setEducationData] = useState(false);
   const [skillData, setSkillData] = useState(false);
-  const [experienceData, setExperienceData] = useState(false);
+  const [experienceData, setExperienceData] = useState(true);
   const [achievementData, setAchievementData] = useState(false);
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="1 YEARS OF EXPERIENCE & COUNTING" des="My Resume" />
+        <Title title="2+ YEARS OF EXPERIENCE & COUNTING" des="My Resume" />
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
